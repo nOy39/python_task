@@ -1,4 +1,3 @@
-"""TODO test by linux and windows"""
 """Write a Python program to get OS name, platform and release information."""
 
 # Use module platform.
