@@ -16,12 +16,8 @@ def print_path(_str_path):
     path_list = path.split(':')
     for i in path_list:
         print(i)
-    pass
+    return
 
 
 print_path(path)
-
-
-while True:
-    print('Breakpoint')
 
