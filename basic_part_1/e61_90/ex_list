@@ -5,7 +5,7 @@
 *65. Write a Python program to convert seconds to day, hour, minutes and seconds.
 *66. Write a Python program to calculate body mass index.
 *67. Write a Python program to convert pressure in kilopascals to pounds per square inch, a millimeter of mercury (mmHg) and atmosphere pressure.
-68. Write a Python program to calculate the sum of the digits in an integer.
+*68. Write a Python program to calculate the sum of the digits in an integer.
 69. Write a Python program to sort three integers without using conditional statements and loops.
 70. Write a Python program to sort files by date.
 71. Write a Python program to get a directory listing, sorted by creation date.
