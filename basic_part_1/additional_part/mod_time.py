@@ -56,7 +56,7 @@ def _strptime_doc(_str):
         Other codes may be available on your platform.  See documentation for
         the C library strftime function.
 
-    :param _str: Date string format..
+    :param _str: Date string format.
     :return: struct_time
     """
     pass
@@ -64,9 +64,9 @@ def _strptime_doc(_str):
 
 def _strftime_doc(_struct_time):
     """
-    Convert a tuple or struct_time representing a time as returned by gmtime() or localtime() to a string as specified by the format argument.
-    If t is not provided, the current time as returned by localtime() is used. format must be a string.
-    ValueError is raised if any field in t is outside of the allowed range.
+    Convert a tuple or struct_time representing a time as returned by gmtime() or localtime() to a string as specified
+    by the format argument. If t is not provided, the current time as returned by localtime() is used.
+    format must be a string.ValueError is raised if any field in t is outside of the allowed range.
 
     0 is a legal argument for any position in the time tuple;
     if it is normally illegal the value is forced to a correct one.
@@ -108,7 +108,7 @@ def _strftime_doc(_struct_time):
     %%              A literal '%' character.
 
     :param _struct_time:
-    :return:
+    :return str: Formatted string
     """
 
 
@@ -156,6 +156,8 @@ def _mktime_doc(_struct_time):
 """EXAMPLES"""
 date_string = "21 June, 2018 08:22:33"
 
+date_obj = time.gmtime()
+
 
 # strptime(string, format) example
 def string_to_date_object(_str):
@@ -170,6 +172,15 @@ def string_to_date_object(_str):
     return _date_obj
 
 
+def string_from_date_object(_struct_time):
+    print(_struct_time)
+    print("*" * 125)
+    print(time.strftime("%d.%m.%y", date_obj))
+    pass
+
+
+print(string_from_date_object(date_obj))
+
 # example gmtime() -> struct_time
 date_object_gmt = time.gmtime()
 
@@ -182,6 +193,7 @@ date_since_epoh_gmt = time.gmtime(38471256)
 # example local_time(seconds)
 date_since_epoh_locale = time.localtime(854997328)
 
+print(string_from_date_object(date_obj))
 # example asctime()
 struct_time_to_str_asc_1 = time.asctime()
 
