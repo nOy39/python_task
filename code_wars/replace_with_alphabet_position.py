@@ -8,7 +8,7 @@
 
 from collections import *
 
-
+#
 # def alphabet_position(text):
 #     alphabet = 'abcdefghijklmnopqrstuvwxyz'
 #     list_of_char = list(text)
@@ -20,7 +20,7 @@ from collections import *
 
 
 def alphabet_position(text):
-    return ' '.join(str(ord(c) - 96) for c in text.lower() if c.isalpha())
+    return " ".join(str(ord(c.lower()) - 96) for c in text if c.isalpha())
 
 
 print(alphabet_position('Aneofthi'))
