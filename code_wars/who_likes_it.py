@@ -12,7 +12,6 @@ Note: For 4 or more names, the number in "and 2 others" simply increases.
 
 
 def likes(names):
-    template = ''
     case = len(names)
     if case == 0:
         template = 'no one like this'
@@ -25,8 +24,3 @@ def likes(names):
     else:
         template = f'{names[0]}, {names[1]} and 2 other like this'
     return template
-
-
-print(likes(["Alex", "Jacob", "Mark", "Max"]))
-print(likes(["Max", "John", "Mark"]))
-print(likes([]))
