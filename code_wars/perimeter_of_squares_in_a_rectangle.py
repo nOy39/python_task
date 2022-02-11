@@ -17,7 +17,6 @@ def perimeter(n):
         n_1 = n_2
         sum_fib += n_2
     return sum_fib * 4
-    # your code
 
 
 print(perimeter(5))
