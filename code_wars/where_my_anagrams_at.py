@@ -17,6 +17,3 @@ def anagrams(word, words_list):
             result.append(w)
     return result   # [w for w in words_list if sorted(word) == sorted(w)]
 
-
-print(anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']))
-print(anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']))
