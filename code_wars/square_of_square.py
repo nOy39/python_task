@@ -9,8 +9,3 @@ so don't worry about that in dynamic typed languages."""
 def is_square(n):
     from math import sqrt
     return sqrt(n).is_integer() if n >= 0 else False
-
-
-num = 252
-
-print(is_square(num))
