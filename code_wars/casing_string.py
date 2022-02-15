@@ -25,5 +25,4 @@
 def to_jaden_case(s):
     return " ".join(w.capitalize() for w in s.split(' '))
 
-string = "How can mirrors be real if our eyes aren't real"
-s2 = to_jaden_case(string)
+
