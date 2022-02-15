@@ -1,0 +1,31 @@
+*61. Write a Python program to convert the distance (in feet) to inches, yards, and miles.
+*62. Write a Python program to convert all units of time into seconds.
+*63. Write a Python program to get an absolute file path.
+*64. Write a Python program to get file creation and modification date/times.
+*65. Write a Python program to convert seconds to day, hour, minutes and seconds.
+*66. Write a Python program to calculate body mass index.
+*67. Write a Python program to convert pressure in kilopascals to pounds per square inch, a millimeter of mercury (mmHg) and atmosphere pressure.
+*68. Write a Python program to calculate the sum of the digits in an integer.
+*69. Write a Python program to sort three integers without using conditional statements and loops.
+70. Write a Python program to sort files by date.
+71. Write a Python program to get a directory listing, sorted by creation date.
+*72. Write a Python program to get the details of math module.
+73. Write a Python program to calculate midpoints of a line.
+74. Write a Python program to hash a word.
+75. Write a Python program to get the copyright information and write Copyright information in Python code.
+76. Write a Python program to get the command-line arguments (name of the script, the number of arguments, arguments) passed to a script.
+77. Write a Python program to test whether the system is a big-endian platform or little-endian platform.
+78. Write a Python program to find the available built-in modules.
+79. Write a Python program to get the size of an object in bytes.
+80. Write a Python program to get the current value of the recursion limit.
+81. Write a Python program to concatenate N strings.
+82. Write a Python program to calculate the sum of all items of a container (tuple, list, set, dictionary).
+83. Write a Python program to test whether all numbers of a list is greater than a certain number.
+84. Write a Python program to count the number occurrence of a specific character in a string.
+85. Write a Python program to check whether a file path is a file or a directory.
+86. Write a Python program to get the ASCII value of a character.
+87. Write a Python program to get the size of a file.
+88. Given variables x=30 and y=20, write a Python program to print "30+20=50".
+89. Write a Python program to perform an action if a condition is true.
+Given a variable name, if the value is 1, display the string "First day of a Month!" and do nothing if the value is not equal.
+90. Write a Python program to create a copy of its own source code.
