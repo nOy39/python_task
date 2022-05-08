@@ -13,4 +13,13 @@ You can find some examples in the test fixtures.
 
 
 def make_readable(seconds):
-    pass
+    m, s = divmod(seconds, 60)
+    h, m = divmod(m, 60)
+    return '{:0>2}:{:0>2}:{:0>2}'.format(h, m, s)
+
+
+print(make_readable(0))
+print(make_readable(5))
+print(make_readable(60))
+print(make_readable(86399))
+print(make_readable(359999))
